@@ -8,15 +8,15 @@
   <link rel="dns-prefetch" href="http://Wallen677.github.io">
   <title>机器学习算法&amp;数据挖掘面试要点总结 | Wallen677&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Wallen personal blog">
-<meta name="keywords" content="Wallen677">
+  <meta name="description" content="机器学习算法&amp;amp;数据挖掘岗面试总结 本文旨在整理机器学习算法工程师&#x2F;数据挖掘岗位面试重点内容，内容来源个人在面试过程中面试官问到的知识点及相关延伸。如发现有可补充内容，欢迎联系。  1、 机器学习（重要指数★★★★★）1.1 过拟合解决方案 降低模型复杂度（缩小宽度&#x2F;降低深度，例如树模型的剪枝） 数据增强（提高数据量，减少噪声。图像领域：旋转、缩放、剪切等） 正则化（L1&amp;amp;L2） D">
+<meta name="keywords" content="Machine learing,Deep learing,Date structure">
 <meta property="og:type" content="article">
 <meta property="og:title" content="机器学习算法&amp;数据挖掘面试要点总结">
 <meta property="og:url" content="http:&#x2F;&#x2F;wallen677.github.io&#x2F;2019&#x2F;11&#x2F;10&#x2F;%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95-%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E9%9D%A2%E8%AF%95%E8%A6%81%E7%82%B9%E6%80%BB%E7%BB%93&#x2F;index.html">
 <meta property="og:site_name" content="Wallen677&#39;s Blog">
-<meta property="og:description" content="Wallen personal blog">
+<meta property="og:description" content="机器学习算法&amp;amp;数据挖掘岗面试总结 本文旨在整理机器学习算法工程师&#x2F;数据挖掘岗位面试重点内容，内容来源个人在面试过程中面试官问到的知识点及相关延伸。如发现有可补充内容，欢迎联系。  1、 机器学习（重要指数★★★★★）1.1 过拟合解决方案 降低模型复杂度（缩小宽度&#x2F;降低深度，例如树模型的剪枝） 数据增强（提高数据量，减少噪声。图像领域：旋转、缩放、剪切等） 正则化（L1&amp;amp;L2） D">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-11-10T07:23:53.793Z">
+<meta property="og:updated_time" content="2019-11-10T09:56:34.274Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Wallen677&#39;s Blog" type="application/atom+xml">
@@ -175,7 +175,7 @@
         <span class="post-meta-item-icon">
             <i class="fa fa-keyboard-o"></i>
             <span class="post-meta-item-text"> 字数统计: </span>
-            <span class="post-count">0字</span>
+            <span class="post-count">1.1k字</span>
         </span>
     </span>
 
@@ -184,7 +184,7 @@
         <span class="post-meta-item-icon">
             <i class="fa fa-hourglass-half"></i>
             <span class="post-meta-item-text"> 阅读时长: </span>
-            <span class="post-count">1分</span>
+            <span class="post-count">3分</span>
         </span>
     </span>
 </div>
@@ -203,7 +203,89 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h2 id="机器学习算法-amp-数据挖掘岗面试总结"><a href="#机器学习算法-amp-数据挖掘岗面试总结" class="headerlink" title="机器学习算法&amp;数据挖掘岗面试总结"></a>机器学习算法&amp;数据挖掘岗面试总结</h2><blockquote>
+<p>本文旨在整理机器学习算法工程师/数据挖掘岗位面试重点内容，内容来源个人在面试过程中面试官问到的知识点及相关延伸。如发现有可补充内容，欢迎联系。</p>
+</blockquote>
+<h3 id="1、-机器学习（重要指数★★★★★）"><a href="#1、-机器学习（重要指数★★★★★）" class="headerlink" title="1、 机器学习（重要指数★★★★★）"></a>1、 机器学习（重要指数★★★★★）</h3><h4 id="1-1-过拟合解决方案"><a href="#1-1-过拟合解决方案" class="headerlink" title="1.1 过拟合解决方案"></a>1.1 过拟合解决方案</h4><ul>
+<li>降低模型复杂度（缩小宽度/降低深度，例如树模型的剪枝）</li>
+<li>数据增强（提高数据量，减少噪声。图像领域：旋转、缩放、剪切等）</li>
+<li>正则化（L1&amp;L2）</li>
+<li>Dropout（神经网络随机失活）</li>
+<li>集成算法（RF/GBDT/XGBOOST）<h4 id="1-2-数据不平衡问题解决方法"><a href="#1-2-数据不平衡问题解决方法" class="headerlink" title="1.2 数据不平衡问题解决方法"></a>1.2 数据不平衡问题解决方法</h4></li>
+<li>数据层面通过过采样/欠采样/综合采样等方式，改善数据整体不均衡状况</li>
+<li>模型层面通过Loss Function提高少数类样本权重、降低多数类样本权重<h4 id="1-3-具体机器学习算法"><a href="#1-3-具体机器学习算法" class="headerlink" title="1.3 具体机器学习算法"></a>1.3 具体机器学习算法</h4><h5 id="1-3-1-面试问题点"><a href="#1-3-1-面试问题点" class="headerlink" title="1.3.1 面试问题点"></a>1.3.1 面试问题点</h5></li>
+<li>算法核心思想</li>
+<li>loss function定义</li>
+<li>L1&amp;L2正则化</li>
+<li>优化算法</li>
+<li>算法优缺点</li>
+<li>集成算法内外部比较<h5 id="1-3-2-常问机器学习算法"><a href="#1-3-2-常问机器学习算法" class="headerlink" title="1.3.2 常问机器学习算法"></a>1.3.2 常问机器学习算法</h5></li>
+<li>回归算法<ul>
+<li>线性回归（Linear Regression）</li>
+<li>逻辑斯谛回归（Logistic Regression）</li>
+</ul>
+</li>
+<li>分类算法<ul>
+<li>贝叶斯分类（Bayes）</li>
+<li>支持向量机（Support Vector Machine）</li>
+<li>K近邻算法（KNN）</li>
+<li>决策树（Decision tree）</li>
+</ul>
+</li>
+<li>聚类算法<ul>
+<li>Kmeans算法</li>
+<li>DBCSAN（Density-Based Spatial Clustering of Applications with Noise）</li>
+</ul>
+</li>
+<li>降维算法<ul>
+<li>主成分分析（Principal Component Analysis）</li>
+<li>奇异值分解（Singular Value Decomposition）</li>
+</ul>
+</li>
+<li>集成算法<ul>
+<li>随机森林（Random Forest）</li>
+<li>GBDT（Gradient Boost Decision Tree）</li>
+<li>XGBOOST<h3 id="2、深度学习（重要指数★★★★）"><a href="#2、深度学习（重要指数★★★★）" class="headerlink" title="2、深度学习（重要指数★★★★）"></a>2、深度学习（重要指数★★★★）</h3><h4 id="2-1-深度学习相对传统机器学习优缺点"><a href="#2-1-深度学习相对传统机器学习优缺点" class="headerlink" title="2.1 深度学习相对传统机器学习优缺点"></a>2.1 深度学习相对传统机器学习优缺点</h4></li>
+</ul>
+</li>
+<li>优点<ul>
+<li>增加数据即可不断提高模型准确率</li>
+<li>无需大量复杂对特征工程</li>
+<li>适用性强（不同场景需要考虑不同机器学习算法）</li>
+</ul>
+</li>
+<li>缺点<ul>
+<li>参数多，需要大量数据才能达成理想优化</li>
+<li>计算资源消耗高</li>
+<li>模型框架不易理解，相比传统机器学习解释性弱，缺乏理论基础<h4 id="2-2-如何解决梯度消失和梯度爆炸"><a href="#2-2-如何解决梯度消失和梯度爆炸" class="headerlink" title="2.2 如何解决梯度消失和梯度爆炸"></a>2.2 如何解决梯度消失和梯度爆炸</h4></li>
+</ul>
+</li>
+<li>预训练+微调</li>
+<li>正则化</li>
+<li>改变激活函数</li>
+<li>Batch Normalization</li>
+<li>改善网络结构（CNN -&gt; Resnet；RNN -&gt; GRU）<h4 id="2-3-卷积网络知识点"><a href="#2-3-卷积网络知识点" class="headerlink" title="2.3 卷积网络知识点"></a>2.3 卷积网络知识点</h4>一、 卷积操作的原理，卷积前后网络大小的计算<br>二、 卷积操作对意义<br>三、 重要网络结构（AlexNet，VGG，Resnet等）<h4 id="2-4-递归网络知识点"><a href="#2-4-递归网络知识点" class="headerlink" title="2.4 递归网络知识点"></a>2.4 递归网络知识点</h4>一、 重要结构图解（基础RNN/LSTM/GRU）<br>二、 网络结构公式及解释<br>三、 网络核心点<br>四、 网络优缺点<h3 id="3、数据结构（重要指数★★★★）"><a href="#3、数据结构（重要指数★★★★）" class="headerlink" title="3、数据结构（重要指数★★★★）"></a>3、数据结构（重要指数★★★★）</h3><h4 id="3-1-常见结构"><a href="#3-1-常见结构" class="headerlink" title="3.1 常见结构"></a>3.1 常见结构</h4>数组、链表、栈、队列、二叉树、二叉查找树、AVL树、B树、红黑树、Trie树、哈希表<h4 id="3-2-常见问题"><a href="#3-2-常见问题" class="headerlink" title="3.2 常见问题"></a>3.2 常见问题</h4>排序问题、查找问题、搜索问题、最短路算法、布隆过滤器、倒排索引、数据库索引原理<h4 id="3-3-面试实际问题"><a href="#3-3-面试实际问题" class="headerlink" title="3.3 面试实际问题"></a>3.3 面试实际问题</h4><h5 id="3-3-1-两个有序数组，结合组成新的有序数组"><a href="#3-3-1-两个有序数组，结合组成新的有序数组" class="headerlink" title="3.3.1 两个有序数组，结合组成新的有序数组"></a>3.3.1 两个有序数组，结合组成新的有序数组</h5><h5 id="3-3-2-一个无序不重复数组，取出所有满足-M-N-k-的数据对，-k-为定值"><a href="#3-3-2-一个无序不重复数组，取出所有满足-M-N-k-的数据对，-k-为定值" class="headerlink" title="3.3.2 一个无序不重复数组，取出所有满足$M+N=k$的数据对，$k$为定值"></a>3.3.2 一个无序不重复数组，取出所有满足$M+N=k$的数据对，$k$为定值</h5></li>
+</ul>
+<h3 id="4、反转问题（重要指数★★★★）"><a href="#4、反转问题（重要指数★★★★）" class="headerlink" title="4、反转问题（重要指数★★★★）"></a>4、反转问题（重要指数★★★★）</h3><h4 id="4-1-To-技术人员"><a href="#4-1-To-技术人员" class="headerlink" title="4.1 To 技术人员"></a>4.1 To 技术人员</h4><ul>
+<li>岗位覆盖工作内容，涉及相关技术</li>
+<li>岗位需要具备的能力</li>
+<li>正常上班时间/加班时间</li>
+<li>目前技术团队的架构及人员组成</li>
+<li>目前岗位是属于新增岗位还是现有岗位（离职）</li>
+<li>是否可以远程办公<h4 id="4-2-To-主管"><a href="#4-2-To-主管" class="headerlink" title="4.2 To 主管"></a>4.2 To 主管</h4></li>
+<li>该岗位KPI的衡量方式</li>
+<li>该岗位需要达到的目标，例如项目完成时间，技术能力</li>
+<li>岗位工作是否固定，是否有机会涉及其他项目</li>
+<li>是否有跨部门甚至跨板块工作内容</li>
+<li>岗位的发展方向</li>
+<li>公司或者部门是否有公共的学习路径<h4 id="4-3-To-HR"><a href="#4-3-To-HR" class="headerlink" title="4.3 To HR"></a>4.3 To HR</h4></li>
+<li>薪资问题</li>
+<li>绩效评定</li>
+<li>岗位未来发展（是否有转岗的机会）</li>
+<li>晋升需要达到的要求</li>
+<li>获得股票/股权需要达到的要求<h3 id="4、其他知识点（重要指数★★★）"><a href="#4、其他知识点（重要指数★★★）" class="headerlink" title="4、其他知识点（重要指数★★★）"></a>4、其他知识点（重要指数★★★）</h3><h4 id="4-1-编程能力"><a href="#4-1-编程能力" class="headerlink" title="4.1 编程能力"></a>4.1 编程能力</h4><h4 id="4-2-常用框架-amp-库"><a href="#4-2-常用框架-amp-库" class="headerlink" title="4.2 常用框架&amp;库"></a>4.2 常用框架&amp;库</h4>Tensorflow、Pytorch、scikit-learn、scipy、numpy<h4 id="4-3-基础知识"><a href="#4-3-基础知识" class="headerlink" title="4.3 基础知识"></a>4.3 基础知识</h4>线性代数、微积分、概率论、凸优化、运筹学等</li>
+</ul>
+
       
 
       
@@ -232,7 +314,37 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color1">Machine learing</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color3">Deep learing</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color5">Date structure</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/interview//" class="article-tag-list-link color5">interview</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
 
@@ -429,6 +541,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color1">Machine learing</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color3">Deep learing</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">Date structure</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
