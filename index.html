@@ -176,7 +176,7 @@
         <span class="post-meta-item-icon">
             <i class="fa fa-keyboard-o"></i>
             <span class="post-meta-item-text"> 字数统计: </span>
-            <span class="post-count">1.7k字</span>
+            <span class="post-count">1.9k字</span>
         </span>
     </span>
 
@@ -185,7 +185,7 @@
         <span class="post-meta-item-icon">
             <i class="fa fa-hourglass-half"></i>
             <span class="post-meta-item-text"> 阅读时长: </span>
-            <span class="post-count">6分</span>
+            <span class="post-count">7分</span>
         </span>
     </span>
 </div>
@@ -334,7 +334,22 @@
 <li>Batch Normalization</li>
 <li>改善网络结构（CNN -&gt; Resnet；RNN -&gt; GRU）</li>
 </ul>
-<h4 id="2-3-卷积网络知识点"><a href="#2-3-卷积网络知识点" class="headerlink" title="2.3 卷积网络知识点"></a>2.3 卷积网络知识点</h4><p>一、 卷积操作的原理，卷积前后网络大小的计算<br>二、 卷积操作对意义<br>三、 重要网络结构（AlexNet，VGG，Resnet等）</p>
+<h4 id="2-3-卷积网络知识点"><a href="#2-3-卷积网络知识点" class="headerlink" title="2.3 卷积网络知识点"></a>2.3 卷积网络知识点</h4><p>一、CNN三个重要思想框架</p>
+<ol>
+<li>局部区域感知<ul>
+<li>能够发现数据的一些局部特征，比如图片上的一个角，一段弧，这些基本特征是构成动物视觉的基础</li>
+</ul>
+</li>
+<li>权值共享<ul>
+<li>CNN中每一层由多个图像组成，每个图像由多个神经元组成，同一个图像的所有神经元共用一个卷积核（即权重）。</li>
+<li>权重共享策略减少了需要训练的参数，使得训练出来的模型的泛化能力更强。</li>
+</ul>
+</li>
+<li>采样（或称池化）<ul>
+<li>采样的目的主要是淡化特征的具体位置。因为某个特征找出来后，它的具体位置已经不重要了。只需要这个特征与其他的相对位置，这种淡化具体位置的策略能对变形和扭曲的图片进行识别。<br>二、 卷积操作的原理，卷积前后网络大小的计算<br>三、 卷积操作对意义<br>四、 重要网络结构（AlexNet，VGG，Resnet等）</li>
+</ul>
+</li>
+</ol>
 <h4 id="2-4-递归网络知识点"><a href="#2-4-递归网络知识点" class="headerlink" title="2.4 递归网络知识点"></a>2.4 递归网络知识点</h4><p>一、 重要结构图解（基础RNN/LSTM/GRU）<br>二、 网络结构公式及解释<br>三、 网络核心点<br>四、 网络优缺点</p>
 <h3 id="3、数据结构（重要指数★★★★）"><a href="#3、数据结构（重要指数★★★★）" class="headerlink" title="3、数据结构（重要指数★★★★）"></a>3、数据结构（重要指数★★★★）</h3><h4 id="3-1-常见结构"><a href="#3-1-常见结构" class="headerlink" title="3.1 常见结构"></a>3.1 常见结构</h4><p>数组、链表、栈、队列、二叉树、二叉查找树、AVL树、B树、红黑树、Trie树、哈希表</p>
 <h4 id="3-2-常见问题"><a href="#3-2-常见问题" class="headerlink" title="3.2 常见问题"></a>3.2 常见问题</h4><p>排序问题、查找问题、搜索问题、最短路算法、布隆过滤器、倒排索引、数据库索引原理</p>
